@@ -1,0 +1,12 @@
+These are two solutions to the classic pancake flipping problem. The A*
+algorithm uses artificial intelligence to determine the optimal number of
+flips. The Dijkstra algorithm solves the same problem, but in substancially
+more time.
+
+Usage:
+	Required modules:
+		Networkx: ~/$ pip install networkx
+
+	Running:
+		~/$ python astar.py
+		~/$ python dijkstra.py
