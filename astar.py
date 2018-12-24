@@ -3,6 +3,10 @@ import networkx as nx
 import heapq
 import copy
 
+#====================================================================
+#						Priority Queue Class
+#====================================================================
+
 class pQueue:
 	def __init__(self):
 		self.elements = []
@@ -15,6 +19,10 @@ class pQueue:
 
 	def get(self):
 		return heapq.heappop(self.elements)[1]
+
+#====================================================================
+#						Pancake Class
+#====================================================================
 
 class Pancakes:
 	def __init__(self, stack, back_cost):
@@ -58,6 +66,10 @@ class Pancakes:
 		for i in range(len(self.stack)):
 			print_string += str(self.stack[i]) + " "
 		print(print_string)
+
+#====================================================================
+#						A* Algorithm
+#====================================================================
 
 def astar(pancakes):
 	print("Running A* on list...")
@@ -112,6 +124,10 @@ def astar(pancakes):
 				visited[temp] = current
 
 	return visited
+
+#====================================================================
+#						Main Function
+#====================================================================
 
 def main():
 
