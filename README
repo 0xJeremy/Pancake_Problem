@@ -10,3 +10,5 @@ Usage:
 	Running:
 		~/$ python astar.py
 		~/$ python dijkstra.py
+
+(Python 2.7)
